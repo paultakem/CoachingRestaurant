@@ -9,7 +9,7 @@ public class Main {
         this.name = name;
     }
 
-    String name;
+    static String name;
 
     public String getAge() {
         return age;
@@ -19,7 +19,7 @@ public class Main {
         this.age = age;
     }
 
-    String age;
+    static String age;
 
 
 
@@ -36,6 +36,9 @@ public class Main {
             Scanner input = new Scanner(System.in);
             String answer = input.nextLine();
 
+            if(answer.equals("1")){
+                printOutput();
+            }
             if(answer.equals("2")){
                 break;
             }
@@ -44,5 +47,11 @@ public class Main {
         }
     }
 
+    public static void printOutput(){
+        System.out.println("Name: " + name);
+        System.out.println("Welcome to my application.");
+        System.out.println("I hope you have a good day");
+
+    }
 
 }
