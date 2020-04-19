@@ -54,4 +54,12 @@ public class Main {
 
     }
 
+
+
+
+
+    public static void aMethod(){
+        System.out.println("whatever");
+
+    }
 }
