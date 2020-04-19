@@ -54,4 +54,9 @@ public class Main {
 
     }
 
+    public static void aMethod(int number){
+        System.out.println("Test");
+        System.out.println(number);
+    }
+
 }
